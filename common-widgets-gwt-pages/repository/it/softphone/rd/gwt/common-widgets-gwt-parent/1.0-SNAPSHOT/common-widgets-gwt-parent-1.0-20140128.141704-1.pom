@@ -42,4 +42,19 @@
   		</plugins>
   	</pluginManagement>
   </build>
+  
+  	<distributionManagement>
+
+		<snapshotRepository>
+			<id>gh-pages</id>
+			<url>file:///${basedir}/common-widgets-gwt-pages/repository</url>
+		</snapshotRepository>
+
+		<repository>
+			<id>gh-pages</id>
+			<url>file:///${basedir}/common-widgets-gwt-pages/repository</url>
+		</repository>
+
+	</distributionManagement>
+  
 </project>
